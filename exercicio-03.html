@@ -1,0 +1,28 @@
+<html>
+  <header>
+    <meta charset="UTF-8">
+    <title>Curso de JavaScript Rocketseat: Desafio 01</title>
+  </header>
+  <body>
+    <head>
+      <h1>Curso de JavaScript Rocketseat</h1>
+      <h2>Exercício 03</h2>
+    </head>
+    
+    <a href="index.html" title="Voltar para a Home">Voltar para a Home</a>
+
+    <script>
+
+      function temHabilidade(skills) {
+        return (skills.indexOf("Javascript") >=0 ? true : false); 
+      }
+      
+      var skills = ["Javascript", "ReactJS", "React Native"];
+      
+      result = temHabilidade(skills); // true ou false
+
+      console.log(result);
+
+    </script>
+  </body>
+</html>

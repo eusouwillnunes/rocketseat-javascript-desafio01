@@ -1,0 +1,42 @@
+<html>
+  <header>
+    <meta charset="UTF-8">
+    <title>Curso de JavaScript Rocketseat: Desafio 01</title>
+  </header>
+  <body>
+    <head>
+      <h1>Curso de JavaScript Rocketseat</h1>
+      <h2>Exercício 04</h2>
+    </head>
+    
+    <a href="index.html" title="Voltar para a Home">Voltar para a Home</a>
+
+    <script>
+
+      function experiencia(anos) {
+        
+        var status;
+
+          if(anos <= 1){
+            status = "Iniciante";
+          }else if(anos > 1 && anos <= 3){
+            status = "Intermediário";
+          }else if(anos > 3 && anos <= 6){
+            status = "Avançado";
+          }else if(anos > 6){
+            status = "Jedi Master";
+          }else{
+            status = "Indefinido";
+          }
+
+        console.log(status);
+      }
+      
+      var anosEstudo = 7;
+      experiencia(anosEstudo);
+
+      
+
+    </script>
+  </body>
+</html>
